@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply min-h-screen bg-gray-900 text-slate-100 font-montserrat antialiased scroll-smooth;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='search'],
+  input[type='password'],
+  textarea {
+    @apply bg-transparent text-slate-100 placeholder-slate-600 focus:outline-none caret-violet-500;
+  }
+}
