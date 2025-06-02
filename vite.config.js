@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/kino-vue/',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
